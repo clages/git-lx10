@@ -31,6 +31,13 @@ Algunos de los comandos que se relacionan con la gestion de respositorios remoto
 * __git remote rename `old` `new`:__ cambia el nombre del remoto especificado
 * __git remote set-url `remote` `url`:__ modifica la direccion url del remoto seleccionado
 
+## APUNTADORES GIT
+
+* __HEAD:__ apuntador movil que indica donde nos encontramos dentro del historial de confirmaciones, tambien se utiliza como referencia para los comandos de git, como por ejemplo: _git checkout HEAD~2_.
+* __BRANCH:__ apuntador dinamico que se asocia al ultimo commit de la historia en la que nos encontramos, sirve para probar caracteristicas y realizar correcciones sin comprometer la rama principal.
+* __TAG:__ apuntador estatico que se asigna a un commit en particular para poder acceder al mismo sin necesidad de utilizar otra referencia, normalmente se utiliza para el versionado del proyecto.
+* __STASH:__ apuntador de la zona temporal de cambios (pila stash) que se utiliza de manera local, cuando necesitamos desplazarnos entre ramas y tenemos cambios pendientes, que no ameritan un commit.
+
 ---
 
 ## Contacto
