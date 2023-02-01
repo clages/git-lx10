@@ -42,6 +42,15 @@ Algunos de los comandos que se relacionan con la gestion de respositorios remoto
 
 ## Contacto
 
+La distribucion de trabajos dentro del proyecto fue la siguiente:
+
+|Usuario|Area|
+|-|-|
+|**camilamgatto**| ** |
+|**clages**| ** |
+|**gabrielnovillorangone**| ** |
+|**m3tha**| ** |
+
 Para mas informacion consultar la plataforma [Alumni](https://alumni.education), donde tambien pueden realizar los exámenes.
 
 Tambien pueden obtener mas detalles sobre los diferentes cursos en [EducacionIT](https://educacionit.com.ar)
