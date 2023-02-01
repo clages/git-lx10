@@ -20,6 +20,17 @@ Cuando trabajamos con GIT, debemos tener en cuenta que el proceso para registrar
 1. ***STAGING AREA:*** El area de control de cambios, tambien llamada INDEX, se utiliza para realizar las capturas de codigo(SNAPSHOT) que luego deberan ser confirmadas si corresponde.
 1. ***REPOSITORY:*** El almacen de cambios corresponde a una carpeta oculta que registra todo en archivos BLOB(Binary Large Object), y que podemos consultar utilizan el historial de confirmaciones.
 
+## Gestion de Remotos
+
+Normalmente todos los cambios realizados se van a gestionar de manera local, pero una vez recopilado un conjunto de estos, necesitaremos publicar dichas modificaciones en un servidor de git. Esto sucede principalmente para que podamos acceder a dicho repositorio desde cualquier ubicacion y tengamos una copia, a modo de respaldo, de nuestro proyecto.
+
+Algunos de los comandos que se relacionan con la gestion de respositorios remotos, ya sea para clonar el mismo o modificar sus valores, son los siguientes:
+
+* __git clone `url`:__ clona un repositorio remoto en el directorio actual
+* __git remote add `alias` `url`:__ agrega una direccion de repositorio remoto
+* __git remote rename `old` `new`:__ cambia el nombre del remoto especificado
+* __git remote set-url `remote` `url`:__ modifica la direccion url del remoto seleccionado
+
 ---
 
 ## Contacto
