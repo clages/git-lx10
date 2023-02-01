@@ -1,3 +1,11 @@
+## Carpetas ignoradas
+docs/
+temp/
+tmp/
+logs/
+node_modules/
+modules/
+
 # Archivos Ignorados
 *.temp
 *.tmp
