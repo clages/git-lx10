@@ -5,3 +5,12 @@ tmp/
 logs/
 node_modules/
 modules/
+
+# Archivos Ignorados
+*.temp
+*.tmp
+*.log
+*.doc
+*.txt
+*.swp
+log_*.md
