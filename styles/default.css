@@ -6,6 +6,47 @@
     font-family: 'Ubuntu', 'Century Gothic', sans-serif;
     scroll-behavior: smooth;
 }
+/* Reinicio de estilos */
+body,
+h1,
+h2,
+h3,
+h4,
+.m-0{
+    margin: 0;
+}
+.list-unstyled,
+.p-0{
+    padding: 0;
+}
+.list-unstyled{
+    list-style: none;
+}
+nav a,
+footer a,
+.link{
+    text-decoration: none;
+}
+/* Navegacion */
+
+/* Cabecera */
+
+/* Contenido */
+
+/* Pie de pagina */
+
+    /* Mapa de contacto */
+
+    /* Repositorios */
+
+    /* Colaboradores */
+
+    /* Redes sociales */
+
+    /* Contacto */
+
+    /* Derechos de autor */
+
 
 /* Pantallas medianas - Tablets */
 
