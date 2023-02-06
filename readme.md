@@ -50,6 +50,8 @@ La distribucion de trabajos dentro del proyecto fue la siguiente:
 |**clages**| ** |
 |**gabrielnovillorangone**| ** |
 |**m3tha**| ** |
+|**kuentas**| ** |
+|**c215714n**|*navegacion principal y repositorios*|
 
 Para mas informacion consultar la plataforma [Alumni](https://alumni.education), donde tambien pueden realizar los exámenes.
 
