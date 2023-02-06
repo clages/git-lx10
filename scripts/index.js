@@ -17,12 +17,9 @@ function toggle(object){
 }
 //# Funciones
 //# Eventos
-menuButton.onclick = toggle( {
-    target: menuList,
-    btn: menuButton,
-    className,
-    val: ['icon-open', 'icon-close']
-} );
+menuButton.onclick = function(){
+    menuList.classList.toggle('active');
+}
 
 mapButton.addEventListener('click', (e) => toggle( {
     target: mapFrame,
@@ -30,4 +27,3 @@ mapButton.addEventListener('click', (e) => toggle( {
     className,
     val: ['icon-plus', 'icon-less']
 } ) );
-//# Eventos
