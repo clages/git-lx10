@@ -46,6 +46,15 @@ Cuando necesitamos integrar los cambios que existen en nuestro remoto, asi como 
 * __MERGE:__ La estrategia de fusion consiste en la creacion de un commit que integra dos ramas que difieren en cambios. En este caso deben resolverse todos los conflictos al momento de integrar las dos ramas, resultando en un grafo que muestra dicha bifurcacion.
 * __REBASE:__ La reorganizacion de commits es otra estrategia que conviene utilizar cuando no se subieron los cambios al remoto, ya que permite reaplicar linealmente los cambios correpondientes y resolver individualmente cada conflicto que se genere (generando commits nuevos).
 
+### Integracion de Cambios
+
+Cuando necesitamos combinar las historias de dos referencias, ya sean commits independientes, ramas locales, ramas remotas, etiquetas o cualquier otro apuntador, podemos utilizar cualquiera de los siquientes comandos, segun corresponda:
+
+* __git pull `remote``ref`:__ descarga e integra los cambios de la referencia  del repositorio remoto en la rama local actual (fetch + merge)
+* __git merge `ref`:__ emite un nuevo commit que integra los cambios de la rama seleccionada con la rama actual
+* __git rebase `ref`:__ reaplica los commits de la rama seleccionada en la rama actual, generando nuevos valores de hash para los mismos.
+* __git cherry-pick `ref`:__ utiliza un commit especifico y lo aplica en la rama actual, independientemente de los cambios a los que apunte.
+
 ---
 
 ## Contacto
