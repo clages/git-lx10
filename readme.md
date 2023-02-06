@@ -54,11 +54,11 @@ La distribucion de trabajos dentro del proyecto fue la siguiente:
 
 |Usuario|Area|
 |-|-|
-|**camilamgatto**| ** |
-|**clages**| ** |
-|**gabrielnovillorangone**| ** |
-|**m3tha**| ** |
-|**kuentas**| ** |
+|**camilamgatto**| *derechos de autor* |
+|**clages**| *formulario de contacto* |
+|**gabrielnovillorangone**| *mapa de contacto* |
+|**m3tha**| *redes sociales* |
+|**kuentas**| *cabecera principal* |
 |**c215714n**|*navegacion principal y repositorios*|
 
 Para mas informacion consultar la plataforma [Alumni](https://alumni.education), donde tambien pueden realizar los exámenes.
