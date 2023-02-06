@@ -55,6 +55,14 @@ Cuando necesitamos combinar las historias de dos referencias, ya sean commits in
 * __git rebase `ref`:__ reaplica los commits de la rama seleccionada en la rama actual, generando nuevos valores de hash para los mismos.
 * __git cherry-pick `ref`:__ utiliza un commit especifico y lo aplica en la rama actual, independientemente de los cambios a los que apunte.
 
+## Control de Cambios
+
+* __git log:__ muestra el historial de confirmaciones.
+* __git diff `ref`:__ compara el working directory con el commit seleccionado.
+* __git checkout `ref`:__ mueve la cabecera hacia el commit especificado.
+* __git rebase -i `ref`:__ reorganiza de manera interactiva los commits.
+* __git bisect:__ permite realizar un analisis de commits, ideal para encontrar errores.
+
 ---
 
 ## Contacto
