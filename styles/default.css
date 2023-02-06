@@ -100,7 +100,21 @@ nav a{
 
 
 /* Pantallas medianas - Tablets */
-
+@media screen and (min-width: 768px){
+    #nav .btn{
+        display: none;
+    }
+    .menu{
+        width: auto;
+        max-height: 100vh;
+        display: flex;
+        gap: 1rem;
+    }
+}
 
 /* Pantallas grandes - Escritorio */
-
+@media screen and (min-width: 1200px){
+    nav{
+        padding: .5rem max(1rem, calc(50vw - 660px));
+    }
+}
