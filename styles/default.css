@@ -94,7 +94,19 @@ nav a{
     /* Repositorios */
 
     /* Colaboradores */
-
+    .colabs{
+        max-width: 720px;
+        width: 100%;
+        margin: 1rem auto;
+    }
+    .colabs caption{
+        border-radius: .5rem .5rem 0 0;
+    }
+    .colabs caption,
+    .colabs th,
+    .colabs td{
+        padding: .5rem 1rem;
+    }
     /* Redes sociales */
 
     /* Contacto */
