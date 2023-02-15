@@ -38,9 +38,45 @@ Algunos de los comandos que se relacionan con la gestion de respositorios remoto
 * __TAG:__ apuntador estatico que se asigna a un commit en particular para poder acceder al mismo sin necesidad de utilizar otra referencia, normalmente se utiliza para el versionado del proyecto.
 * __STASH:__ apuntador de la zona temporal de cambios (pila stash) que se utiliza de manera local, cuando necesitamos desplazarnos entre ramas y tenemos cambios pendientes, que no ameritan un commit.
 
+## Estrategias de GIT
+
+Cuando necesitamos integrar los cambios que existen en nuestro remoto, asi como tambien los alguna rama local, debemos utilizar las diferentes estrategias que nos ofrece GIT, segun corresponda. Entre las mismas se detallan las siguientes:
+
+* __FAST_FORWARD:__ El avance rapido es la estrategia utilizada por defecto, indistintamente del comando utilizado, cuando solamente necesitamos integrar a nuestro historial de cambios, commits que aun no tenemos y que no difieren con la rama involucrada.
+* __MERGE:__ La estrategia de fusion consiste en la creacion de un commit que integra dos ramas que difieren en cambios. En este caso deben resolverse todos los conflictos al momento de integrar las dos ramas, resultando en un grafo que muestra dicha bifurcacion.
+* __REBASE:__ La reorganizacion de commits es otra estrategia que conviene utilizar cuando no se subieron los cambios al remoto, ya que permite reaplicar linealmente los cambios correpondientes y resolver individualmente cada conflicto que se genere (generando commits nuevos).
+
+### Integracion de Cambios
+
+Cuando necesitamos combinar las historias de dos referencias, ya sean commits independientes, ramas locales, ramas remotas, etiquetas o cualquier otro apuntador, podemos utilizar cualquiera de los siquientes comandos, segun corresponda:
+
+* __git pull `remote``ref`:__ descarga e integra los cambios de la referencia  del repositorio remoto en la rama local actual (fetch + merge)
+* __git merge `ref`:__ emite un nuevo commit que integra los cambios de la rama seleccionada con la rama actual
+* __git rebase `ref`:__ reaplica los commits de la rama seleccionada en la rama actual, generando nuevos valores de hash para los mismos.
+* __git cherry-pick `ref`:__ utiliza un commit especifico y lo aplica en la rama actual, independientemente de los cambios a los que apunte.
+
+## Control de Cambios
+
+* __git log:__ muestra el historial de confirmaciones.
+* __git diff `ref`:__ compara el working directory con el commit seleccionado.
+* __git checkout `ref`:__ mueve la cabecera hacia el commit especificado.
+* __git rebase -i `ref`:__ reorganiza de manera interactiva los commits.
+* __git bisect:__ permite realizar un analisis de commits, ideal para encontrar errores.
+
 ---
 
 ## Contacto
+
+La distribucion de trabajos dentro del proyecto fue la siguiente:
+
+|Usuario|Area|
+|-|-|
+|**camilamgatto**| *derechos de autor* |
+|**clages**| *formulario de contacto* |
+|**gabrielnovillorangone**| *mapa de contacto* |
+|**m3tha**| *redes sociales* |
+|**kuentas**| *cabecera principal* |
+|**c215714n**|*navegacion principal y repositorios*|
 
 Para mas informacion consultar la plataforma [Alumni](https://alumni.education), donde tambien pueden realizar los exámenes.
 
