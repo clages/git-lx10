@@ -141,6 +141,8 @@ nav a{
         background-color: hsl(0,0%,50%,.3);
     }
     /* Redes sociales */
+    
+    
     .social{
         display: flex;
         justify-content: center;
@@ -148,6 +150,22 @@ nav a{
         gap: .5rem;
         padding: 1rem;
     }
+
+    .social-icon{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        padding: 3rem;  
+        font-size: 30px;
+    }
+
+    .social-icon a{
+        text-decoration: none;
+        color: #448;
+    }
+   
+
     /* Contacto */
 
     /* Derechos de autor */
