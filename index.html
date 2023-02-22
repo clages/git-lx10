@@ -60,8 +60,15 @@
             <article>
                 <h3>STAGING AREA</h3>
                 <p>
-                    El area de control de cambios, tambien llamada INDEX, se utiliza para realizar las capturas de codigo(SNAPSHOT) que luego deberan ser confirmadas si corresponde.
+                    El area de control de cambios, tambien llamada INDEX, se utiliza para realizar las capturas de codigo(SNAPSHOT) que luego deberan ser confirmadas si corresponde. Aqui es donde se realiza el seguimiento de los archivos y algunos de los comandos que podemos utilizar son los siguientes:
                 </p>
+                <ul class="commands">
+                    <li><strong>git status:</strong> muestra el estado de los archivos que se encuentran en el directorio actual</li>
+                    <li><strong>git add &lt;file>:</strong> agrega al INDEX los archivos seleccionados</li>
+                    <li><strong>git diff:</strong> compara el working directory con las capturas del  INDEX</li>
+                    <li><strong>git restore --staged &lt;file>:</strong> Elimina la ultima captura realizada</li>
+                    <li><strong>git rm --cached &lt;file>:</strong> Elimina del Repositorio y quita del seguimiento un archivo</li>
+                </ul>
             </article>
             <article>
                 <h3>REPOSITORY</h3>
