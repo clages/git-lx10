@@ -42,7 +42,34 @@
         <!-- Introduccion -->
         
         <!-- Areas de GIT -->
-
+        <section id="git-areas">
+            <h2>Areas de GIT</h2>
+            <article>
+                <h3>WORKING DIRECTORY</h3>
+                <p>
+                    El area de trabajo corresponde a la carpeta donde creamos el respositorio y vamos a crear, editar y/o eliminar los archivos que forman parte del proyecto. Normalmente trabajaremos en esta area con algun editor de codigo o IDE y utilizaremos algun que otro comando circunstancialmente, entre los cuales se encuentran:
+                </p>
+                <ul class="commands">
+                    <li><strong>dir | ls:</strong> muestra el contenido de la carpeta actual</li>
+                    <li><strong>mkdir &lt;name>:</strong> crear una carpeta con el nombre especificado</li>
+                    <li><strong>cd &lt;path></strong> abre el directorio seleccionado</li>
+                    <li><strong>git init: </strong> inicializa un repositorio en la carpeta actual</li>
+                    <li><strong>rm -rf .git</strong> elimina el repositorio de git</li>
+                </ul>
+            </article>
+            <article>
+                <h3>STAGING AREA</h3>
+                <p>
+                    El area de control de cambios, tambien llamada INDEX, se utiliza para realizar las capturas de codigo(SNAPSHOT) que luego deberan ser confirmadas si corresponde.
+                </p>
+            </article>
+            <article>
+                <h3>REPOSITORY</h3>
+                <p>
+                    El almacen de cambios corresponde a una carpeta oculta que registra todo en archivos BLOB(Binary Large Object), y que podemos consultar utilizan el historial de confirmaciones.
+                </p>
+            </article>
+        </section>
         <!-- Apuntadores -->
 
         <!-- Control de Cambios -->
