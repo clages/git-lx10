@@ -73,8 +73,16 @@
             <article>
                 <h3>REPOSITORY</h3>
                 <p>
-                    El almacen de cambios corresponde a una carpeta oculta que registra todo en archivos BLOB(Binary Large Object), y que podemos consultar utilizan el historial de confirmaciones.
+                    El almacen de cambios corresponde a una carpeta oculta que registra todo en archivos BLOB(Binary Large Object), y que podemos consultar utilizando el historial de confirmaciones. La gestion del repositorio puede ser local o remota y para ello podemos utilizar los comandos correspondientes:
                 </p>
+                <ul class="commands">
+                    <li><strong>git log:</strong> muestra el historial de confirmaciones</li>
+                    <li><strong>git blame &lt;file>:</strong> muestra los autores de cada linea</li>
+                    <li><strong>git remote add &lt;alias> &lt;url></strong> agrega un repositorio remoto</li>
+                    <li><strong>git fetch:</strong> captura el historial de cambios del remoto</li>
+                    <li><strong>git pull:</strong> captura e integra los cambios al working directory</li>
+                    <li><strong>git push:</strong> envia el historial de confirmaciones al remoto</li>
+                </ul>
             </article>
         </section>
         <!-- Apuntadores -->
